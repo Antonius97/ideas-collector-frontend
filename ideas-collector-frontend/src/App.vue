@@ -72,6 +72,8 @@ export default {};
   --text-primary-color: #FFFFFF;
   --text-secondary-color: #808080;
   --block-background-color: #333333;
+  --block-active-background-color: #181818;
+  --block-active-text-color: #DB2B30;
 }
 
 .light-theme {
@@ -81,6 +83,8 @@ export default {};
   --text-secondary-color: #808080;
   --block-background-color: #DDDDDD;
   --background-color: #FFFFFF;
+  --block-active-background-color: #666666;
+  --block-active-text-color: #FFFFFF;
 }
 
 * {
@@ -161,5 +165,55 @@ body,
 
 .round {
   border-radius: 0.5rem;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.small-margin {
+  margin: 1rem;
+}
+
+.small-margin-left {
+  margin-left: 1rem;
+}
+
+.small-margin-right {
+  margin-right: 1rem;
+}
+
+.small-margin-top {
+  margin-top: 1rem;
+}
+
+.small-margin-bottom {
+  margin-bottom: 1rem;
+}
+
+.medium-margin {
+  margin: 2rem;
+}
+
+.medium-margin-left {
+  margin-left: 2rem;
+}
+
+.medium-margin-right {
+  margin-right: 2rem;
+}
+
+.medium-margin-top {
+  margin-top: 2rem;
+}
+
+.medium-margin-bottom {
+  margin-bottom: 2rem;
 }
 </style>
